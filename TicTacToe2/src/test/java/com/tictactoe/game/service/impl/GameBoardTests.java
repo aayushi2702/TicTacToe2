@@ -29,7 +29,6 @@ public class GameBoardTests {
 
 	@Test
 	public void getCountPositionsOccupiedOnGameBoard() {
-		GameBoard gameBoard = new GameBoard();
 		assertThat(gameBoard.getCountOfPositionsOccupied()).isZero();
 	}
 
